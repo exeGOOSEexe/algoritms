@@ -10,3 +10,4 @@ def list_to_set(a):
     print(a)
 
 list_to_set(check)
+// 3 лаба 1 задание
