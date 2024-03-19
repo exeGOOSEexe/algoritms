@@ -13,4 +13,4 @@ def lab(user_input1, user_input2):
             return print(j)
     return print("No missing letter")
 lab(user_input1, user_input2)
-// 3 лаба 1 задание
+// 2 лаба 2 задание
