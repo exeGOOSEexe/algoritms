@@ -4,6 +4,7 @@ def func(element1, element2, length):
         element2.append(element1[i])
     total = (sum(element2) / length)
     print(total)
+    element1.clear()
     for i in range(length):
         if element2[i] % 2 == 0:
                 element2[i] = total
