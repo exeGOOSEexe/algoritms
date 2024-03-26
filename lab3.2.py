@@ -1,17 +1,17 @@
-my_list = (5.5, 6.5, 7.5, 8.1, 9.3, 10.33)
-
-def lab(my_lists):
-    check = float(0)
-    for i in my_lists:
-        check += i
-        return check
-def lab2(check):
-    check = lab(my_list)
-    a = len(my_list)
-    b = check / a
-    print("{:.2f}".format(b))
-
-if __name__ == "__main__":
-    lab2(my_list)
-    lab(my_list)
-# 2 задание 3 лабы
+from collections import deque
+def func(element1, element2, length):
+    for i in range(length):
+        element2.append(element1[i])
+    total = (sum(element2) / length)
+    print(total)
+    for i in range(length):
+        if element2[i] % 2 == 0:
+                element2[i] = total
+    for i in range(length):
+         element1.append(element2[i])
+    print(element1)
+if __name__ == '__main__':
+    base = deque([0.3, 55.3, 23.67, 94.1, 32.0, 12.3, 45.6, 78.9, 23.4, 56.7])
+    sets = []
+    length = len(base)
+    func(base, sets, length)
