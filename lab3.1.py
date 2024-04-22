@@ -29,3 +29,4 @@ if __name__ == "__main__":
     a = (SET(check_list))
     a.add()
     print_set(a.list_to_set)
+// Неправильно
