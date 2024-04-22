@@ -124,3 +124,4 @@ t = Tree()
 for x in v:
     t.append(Node(x))
 t.show_mirror_wide_tree(t.root)
+// дополнительное задание 2
